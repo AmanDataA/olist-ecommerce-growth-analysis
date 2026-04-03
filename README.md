@@ -22,7 +22,7 @@ After 10× growth in 2017, Olist's revenue stalled between **$0.98M–$1.1M/mont
 
 ## 📈 Revenue & Customer Dynamics
 
-![Revenue Over Time](over_time.png)
+![Revenue Over Time](plots/over_time.png)
 
 Revenue, orders, and unique customers move in lockstep — three lines with nearly identical shapes. This is the visual proof that revenue is a pure function of acquisition, not retention. The November 2017 spike is **Black Friday (Dia de Ofertas)** — a seasonal event, not organic growth. The January 2018 correction to ~$830k confirms it.
 

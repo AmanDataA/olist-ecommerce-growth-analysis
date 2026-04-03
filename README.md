@@ -5,9 +5,9 @@
 | Metric | Value |
 |---|---|
 | Total Revenue | R$15,422,461 |
-| Total Orders | 96,477 |
-| Unique Clients | 93,357 |
-| Average Order Value | R$159.86 |
+| Total Orders | 96,478 |
+| Unique Clients | 93,358 |
+| Average Order Value | R$159.85 |
 | Period | Sep 2016 – Aug 2018 |
 
 **Core Finding:** 2018 revenue plateau is structural — not a traffic problem. Root cause is a 0.45% first-month retention rate and R$5.86M sitting in the "Lost" segment with no reactivation mechanism.

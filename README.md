@@ -8,7 +8,7 @@
 | Total Orders | 96,477 |
 | Unique Clients | 93,357 |
 | Average Order Value | $159.86 |
-| Period | Sep 2016 – Oct 2018 |
+| Period | Sep 2016 – Aug 2018 |
 
 **Core Finding:** 2018 revenue plateau is structural — not a traffic problem. Root cause is a 0.45% first-month retention rate and $5.86M sitting in the "Lost" segment with no reactivation mechanism.
 
@@ -30,10 +30,10 @@ Revenue, orders, and unique customers move in lockstep — three lines with near
 
 ## 📊 ABC / Pareto Analysis
 
-![ABC Pareto](abc_pareto.png)
+![ABC Pareto](Plots/abc_pareto.png)
 
-17 of 73 categories generate **80% of revenue (Group A)**. The top 5 alone account for 39%.
-
+17 of 72 categories generate **80% of revenue (Group A)**. The top 5 alone account for 39%.
+Revenue is calculated as total payment.
 | # | Category | Revenue | Type |
 |---|---|---|---|
 | 1 | Health & Beauty | $1.41M | ✅ Consumable |
@@ -48,7 +48,7 @@ The real insight is not the 80/20 split — that's expected for any marketplace.
 
 ## 🧠 Customer Segmentation (RFM)
 
-![RFM](rfm_segments.png)
+![RFM](Plots/rfm_segments.png)
 
 | Segment | Customers | Revenue | Rev. Share | Avg. Order |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ The real insight is not the 80/20 split — that's expected for any marketplace.
 
 ## 🔁 Cohort Retention — The Leaky Bucket
 
-![Retention Curve](retention_curve.png)
+![Retention Curve](Plots/retention_curve.png)
 
 | Month | Weighted Retention |
 |---|---|
@@ -127,10 +127,12 @@ Replace "New Orders" with **Repeat Purchase Rate** as the primary KPI. The 2018 
 ---
 
 ## 📁 Project Structure
+```               
+├── Notebooks/             # ETL, EDA, RFM, ABC, Cohort
+├── Plots/                 # Final chart exports
+├── README.md
 ```
-notebook:olist_analysis.ipynb
-plots:revenue_trend.png, rfm_segments.png, cohort_heatmap.png
-```
+
 
 **Dataset:** [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
